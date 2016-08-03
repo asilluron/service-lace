@@ -17,12 +17,14 @@ docker run -d --name registrator --link consul --volume /var/run/docker.sock:/tm
 
 ```
 
+Finally kick off the load balancer.
+```
+docker run -d --name load-balancer --publish 80:80 --publish 443:443 --link consul --link registrator load-balancer
+```
+
 ## Development
 
 ```
 docker build -t nginx-consul .
 ```
 
-```
-docker run -d --name load-balancer --publish 80:80 --publish 443:443 --link consul --link registrator load-balancer
-```

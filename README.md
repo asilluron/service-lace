@@ -1,4 +1,6 @@
-# docker-alpine-nginx-consul
+# ServiceLace
+
+![Image of a colorful lace](http://imgur.com/a/wA1FJ)
 Load balancing setup on Alpine with s6, consul and more. Many thanks to smebberson/alpine-nginx for the base setup of alpine+nginx.
 
 Currently the very first version only supports load balancing between multiple nodes of a service named "web". This is a temporary config freeze. 

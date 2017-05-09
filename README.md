@@ -1,6 +1,6 @@
 # ServiceLace
 
-![Image of a colorful lace](http://i.imgur.com/xGKB6lT.png?raw=true )
+![Image of a colorful lace](http://i.imgur.com/NjuhnOg.png?raw=true )
 
 Load balancing setup on Alpine with s6, consul and more. Many thanks to smebberson/alpine-nginx for the base setup of alpine+nginx.
 
